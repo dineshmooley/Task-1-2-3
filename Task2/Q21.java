@@ -10,11 +10,11 @@ public class Q21 {
             }
             
             for(int j=1; j<=i; j++) {
-                System.out.print(j-i + 9 + " ");
+                System.out.print(j-i + n + " ");
             }
             
             for(int j=i; j>=2; j--) {
-                System.out.print((j-1-i+9) + " ");
+                System.out.print((j-1-i+n) + " ");
             }
             
             System.out.println();
